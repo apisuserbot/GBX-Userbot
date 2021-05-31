@@ -134,6 +134,7 @@ async def pingme(pong):
                     f"`{uptime}` \n"
                     f"**👤 Master  :** `{ALIVE_NAME}`" % (duration))
 
+
 @register(outgoing=True, pattern="^.zping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
@@ -148,6 +149,7 @@ async def pingme(pong):
                     f"➾ **Oasu:** "
                     f"`{uptime}` \n"
                     f"**👤 Anak Tolol:** `{ALIVE_NAME}`" % (duration))
+
 
 @register(outgoing=True, pattern="^.cping$")
 async def redis(pong):
@@ -175,6 +177,7 @@ async def redis(pong):
                     f"`{uptime}` \n"
                     f"**│⊙  Master   :** `{ALIVE_NAME}` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯**" % (duration))
+
 
 @register(outgoing=True, pattern="^.speed$")
 async def speedtst(spd):
