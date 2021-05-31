@@ -1,9 +1,9 @@
 # We're using Ubuntu 20.10
-FROM liualvinas24/docker:groovy
+FROM biansepang/weebproject:buster
 
-#
+# GBX MEN
 # Clone repo and prepare working directory
-#
+# GBX MEN
 RUN git clone -b GBX-Userbot https://github.com/apisuserbot/GBX-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
